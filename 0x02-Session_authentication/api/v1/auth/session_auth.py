@@ -109,4 +109,3 @@ class SessionAuth(Auth):
             del self.user_id_by_session_id[session_id]
         # Return True if the session was destroyed successfully
         return True
-
